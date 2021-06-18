@@ -74,11 +74,7 @@ import './initDatabases';
 
 import { MyService } from './services/MyService';
 
-import type {
-  ReplPrompt,
-  ReplContext,
-  ReplCommands,
-} from '@product/local-ts-repl';
+import type { ReplPrompt, ReplContext, ReplCommands } from 'local-ts-repl';
 
 export const prompt: ReplPrompt = '$> ';
 
