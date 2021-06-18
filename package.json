@@ -1,6 +1,6 @@
 {
   "name": "local-ts-repl",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "index.ts",
   "repository": "git@github.com:jalopez/local-ts-repl.git",
   "author": "Javier López Pardo <lopez.pardo@gmail.com>",
