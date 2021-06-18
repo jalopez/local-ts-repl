@@ -1,5 +1,7 @@
 # local-ts-repl
 
+![CI](https://github.com/jalopez/local-ts-repl/actions/workflows/check.yml/badge.svg)
+
 Local node REPL for TypeScript projects. Run a REPL including the context of your project.
 Customize it to have global variables ready to use (DB connections, service calls, etc).
 Top level await configured by default.
