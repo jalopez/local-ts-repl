@@ -9,11 +9,14 @@
   "bin": {
     "ts-repl": "./ts-repl"
   },
-  "engines": {"node": ">= 12.0.0"},
+  "engines": {
+    "node": ">= 12.0.0"
+  },
   "scripts": {
     "format": "prettier --loglevel warn --write .",
     "format:check": "prettier --check .",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "prepare": "husky install"
   },
   "dependencies": {
     "chalk": "^4.1.1",
@@ -27,8 +30,13 @@
   },
   "devDependencies": {
     "@types/node": "15.12.0",
+    "husky": ">=6",
+    "lint-staged": ">=10",
     "prettier": "2.3.1",
     "type-fest": "1.2.0",
     "typescript": "4.3.2"
+  },
+  "lint-staged": {
+    "*.{js,css,md,json}": "yarn format"
   }
 }
