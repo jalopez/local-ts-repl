@@ -4,3 +4,5 @@ node_modules
 .prettierrc
 yarn.lock
 examples
+.github
+.husky
