@@ -61,7 +61,14 @@ const replrcPath = path.join(process.cwd(), '.repl.ts');
 
   if (commands) {
     Object.keys(commands).forEach((key) => {
-      instance.defineCommand(key, commands[key]);
+      instance.defineCommand(key, {
+        ...commands[key],
+        async action(text: string) {
+          this.clearBufferedCommand();
+          await commands[key].action.bind(this)(text);
+          this.displayPrompt();
+        },
+      });
     });
   }
 })();
