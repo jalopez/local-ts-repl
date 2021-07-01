@@ -111,7 +111,7 @@ chalk@^3.0.0:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
-chalk@^4.0.0, chalk@^4.1.0, chalk@^4.1.1:
+chalk@^4.1.0, chalk@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.1.tgz#c80b3fab28bf6371e6863325eee67e618b77e6ad"
   integrity sha512-diHzdDKxcU+bAsUboHLPEDQiw0qEe0qd7SYUn3HgcFlWgbDcfLGswOHYeGrHKzG9z6UYf01d9VFMfZxPM1xZSg==
@@ -540,13 +540,13 @@ prettier@2.3.1:
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.3.1.tgz#76903c3f8c4449bc9ac597acefa24dc5ad4cbea6"
   integrity sha512-p+vNbgpLjif/+D+DwAZAbndtRrR0md0MwfmOVN9N+2RgyACMT+7tfaRnT+WDPkqnuVwleyuBIG2XBxKDme3hPA==
 
-pretty-repl@^3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/pretty-repl/-/pretty-repl-3.0.2.tgz#272b44c2bac46bc5da2c02ae3f79b80c70cae20c"
-  integrity sha512-u+Pe+ECcVmrHFw5FPetBokhcKoNDGgBk2Ix/7ZB5zZpblbHA+IRD+XvuUzJXQJe1nK0E4sMjtuVHaRAXg7cA9g==
+pretty-repl@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/pretty-repl/-/pretty-repl-3.1.0.tgz#4d301474d05a59eb10b19d957a2c577a246fa99a"
+  integrity sha512-6HVhRaatDXkQjxQoGoyUy6GK+Yciwe6YfkJYKNQrbKBis19JNMNhmlZg/oFuI7oKhWexAkBPrXycmPYvLSBg3A==
   dependencies:
     ansi-regex "^5.0.0"
-    chalk "^4.0.0"
+    chalk "^4.1.1"
     emphasize "^3.0.0"
     strip-ansi "^6.0.0"
 
