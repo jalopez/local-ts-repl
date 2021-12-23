@@ -19,7 +19,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "chalk": "^4.1.2",
+    "chalk": "^5.0.0",
     "parse-json": "^6.0.2",
     "pretty-repl": "^3.1.1",
     "tsconfig-paths": "^3.12.0"
