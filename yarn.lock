@@ -377,6 +377,11 @@ lines-and-columns@^1.1.6:
   resolved "https://registry.yarnpkg.com/lines-and-columns/-/lines-and-columns-1.1.6.tgz#1c00c743b433cd0a4e80758f7b64a57440d9ff00"
   integrity sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=
 
+lines-and-columns@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/lines-and-columns/-/lines-and-columns-2.0.2.tgz#84de68939c83376b568327a156899c64a369f4d5"
+  integrity sha512-RaBDLqsC4A5/YmPV5DENC2/Q4DaXsk89b+jhUFPl0kvkztkyjGnJAH0I6Bcze/fO06ieP0NxTM+02iXFlt0OZQ==
+
 lint-staged@>=11:
   version "11.2.6"
   resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-11.2.6.tgz#f477b1af0294db054e5937f171679df63baa4c43"
@@ -499,15 +504,15 @@ parse-json@^5.0.0:
     json-parse-even-better-errors "^2.3.0"
     lines-and-columns "^1.1.6"
 
-parse-json@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/parse-json/-/parse-json-6.0.0.tgz#c8ee78ba5c5751047801b86808f45748a95a7bb8"
-  integrity sha512-ynQMB8AR6LdSrULxBydOHi3tTol76eE9m+04pFcCyJB3jrwhj9kR3uBHv5KhJhQuK3yS7HlcWXetAMJLoya/9w==
+parse-json@^6.0.2:
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/parse-json/-/parse-json-6.0.2.tgz#6bf79c201351cc12d5d66eba48d5a097c13dc200"
+  integrity sha512-SA5aMiaIjXkAiBrW/yPgLgQAQg42f7K3ACO+2l/zOvtQBwX58DMUsFJXelW2fx3yMBmWOVkR6j1MGsdSbCA4UA==
   dependencies:
     "@babel/code-frame" "^7.16.0"
     error-ex "^1.3.2"
     json-parse-even-better-errors "^2.3.1"
-    lines-and-columns "^1.1.6"
+    lines-and-columns "^2.0.2"
 
 path-key@^3.0.0, path-key@^3.1.0:
   version "3.1.1"
@@ -679,10 +684,10 @@ to-regex-range@^5.0.1:
   dependencies:
     is-number "^7.0.0"
 
-tsconfig-paths@^3.11.0:
-  version "3.11.0"
-  resolved "https://registry.yarnpkg.com/tsconfig-paths/-/tsconfig-paths-3.11.0.tgz#954c1fe973da6339c78e06b03ce2e48810b65f36"
-  integrity sha512-7ecdYDnIdmv639mmDwslG6KQg1Z9STTz1j7Gcz0xa+nshh/gKDAHcPxRbWOsA3SPp0tXP2leTcY9Kw+NAkfZzA==
+tsconfig-paths@^3.12.0:
+  version "3.12.0"
+  resolved "https://registry.yarnpkg.com/tsconfig-paths/-/tsconfig-paths-3.12.0.tgz#19769aca6ee8f6a1a341e38c8fa45dd9fb18899b"
+  integrity sha512-e5adrnOYT6zqVnWqZu7i/BQ3BnhzvGbjEjejFXO20lKIKpwTaupkCPgEfv4GZK1IBciJUEhYs3J3p75FdaTFVg==
   dependencies:
     "@types/json5" "^0.0.29"
     json5 "^1.0.1"
