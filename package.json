@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@types/node": "17.0.32",
-    "husky": ">=7",
+    "husky": ">=8",
     "lint-staged": ">=12",
     "prettier": "2.6.2",
     "type-fest": "2.8.0",
